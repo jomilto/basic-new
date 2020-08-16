@@ -10,10 +10,10 @@ class PageController extends Controller
 {
     public function posts()
     {
-        $post = Post::with('users')
+        $posts = Post::with('user')
                 ->latest()
                 ->paginate();
-        return view('post', compact('post'));
+        return view('posts', compact('posts'));
     }
 
     public function post(Post $post)
