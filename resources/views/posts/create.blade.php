@@ -30,11 +30,11 @@
                             >
                         </div>
                         <div class="form-group">
-                            <label for="image">Image</label>
+                            <label for="file">Image</label>
                             <input 
                                 type="file" 
-                                name="image" 
-                                id="image"
+                                name="file" 
+                                id="file"
                             >
                         </div>
                         <div class="form-group">
@@ -57,7 +57,7 @@
                             >
                             </textarea>
                         </div>
-                        <div class="form-control">
+                        <div class="form-group">
                             @csrf
                             <input 
                                 type="submit" 
