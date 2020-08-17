@@ -45,8 +45,7 @@
                                 rows="6"
                                 class="form-control"
                                 required
-                            >
-                            </textarea>
+                            ></textarea>
                         </div>
                         <div class="form-group">
                             <label for="iframe">Embeded Content</label>
@@ -54,8 +53,7 @@
                                 name="iframe" 
                                 id="iframe"
                                 class="form-control"
-                            >
-                            </textarea>
+                            ></textarea>
                         </div>
                         <div class="form-group">
                             @csrf

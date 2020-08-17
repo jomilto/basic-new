@@ -46,8 +46,7 @@
                                 rows="6"
                                 class="form-control"
                                 required
-                            >{{ old('body', $post->body) }}
-                            </textarea>
+                            >{{ old('body', $post->body) }}</textarea>
                         </div>
                         <div class="form-group">
                             <label for="iframe">Embeded Content</label>
@@ -55,8 +54,7 @@
                                 name="iframe" 
                                 id="iframe"
                                 class="form-control"
-                            >{{ old('iframe', $post->iframe) }}
-                            </textarea>
+                            >{{ old('iframe', $post->iframe) }}</textarea>
                         </div>
                         <div class="form-group">
                             @csrf
