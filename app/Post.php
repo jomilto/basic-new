@@ -37,4 +37,13 @@ class Post extends Model
     {
         return substr($this->body,0,140);
     }
+
+    // para dar permisos de acceso a una ruta publica vinculada
+    // php artisan storage:link
+    public function getGetImageAttribute()
+    {
+        if($this->image){
+            return url("storage/$this->image");
+        }
+    }
 }
